@@ -1,0 +1,24 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .right-header {
+    display: none;
+  }
+  .list-header {
+    float:right;
+    margin-right:20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .right-header {
+    display: none;
+  }
+  
+  .list-header {
+    display: none;
+  }
+  .bar-menu {
+    display:block;
+  }
+}
